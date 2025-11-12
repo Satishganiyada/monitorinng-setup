@@ -44,7 +44,7 @@ services:
       - monitoring
 
   sample-app:
-    build: ./app
+    build: ../app
     container_name: sample-app
     ports:
       - "8080:8080"
